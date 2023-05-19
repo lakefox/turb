@@ -8,7 +8,6 @@ let turb0LongFunction = turb0.register(longFunction);
 // , {
 //    expires: 1000,
 //}
-// tests //
 
 console.time();
 let bigStr1 = await longFunction("test");
