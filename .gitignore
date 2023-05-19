@@ -1,2 +1,4 @@
-./turb
-./test.js
+turb
+test.js
+.prettierrc
+config.json
