@@ -4,3 +4,4 @@ config.json
 test
 .gitignore
 .DS_Store
+build

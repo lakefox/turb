@@ -12,8 +12,36 @@ npm i turb
 
 ### Server
 
+### Building Executable
+
 ```text
-curl -h "https://github.com/lakefox/turb/dist/23893718923789" | e
+npm run build
+```
+
+### Running the server
+
+```text
+./build/turb
+```
+
+#### Arguments
+
+-   `--config` (optional)
+-   Specify the `config.json` file
+-   If not provided a `config.json` file will be created in the current working directory
+
+#### Config.json
+
+```json
+{
+    "shards": {
+        "main": {
+            "size": 10000
+        }
+    },
+    "hostname": "0.0.0.0",
+    "port": 6748
+}
 ```
 
 ## API
@@ -23,5 +51,3 @@ curl -h "https://github.com/lakefox/turb/dist/23893718923789" | e
 ```javascript
 import { Turb } from "turb";
 ```
-
-## Building from source
