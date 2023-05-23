@@ -1,11 +1,11 @@
 {
     "name": "turb",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Function caching that turbo charges your application",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "build": "bun build --compile src/turb.js --outfile build/turb"
+        "build": "bun build --compile src/turb.js && mv turb build"
     },
     "author": "lakefox",
     "license": "MIT",
