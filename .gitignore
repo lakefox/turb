@@ -2,6 +2,6 @@ test.js
 .prettierrc
 config.json
 test
-.gitignore
-.DS_Store
 build
+.DS_Store
+turb

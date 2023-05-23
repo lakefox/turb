@@ -32,10 +32,11 @@ curl -fsSL https://bun.sh/install | bash
 
 #### Building Executable
 
-To build the server, clone the main repository from GitHub and run the build command. Once the application is built, you can have a function that returns a promise and resolves it after a set amount of time. While its function is not practical, I feel it deminstraights the power of turb. Below we run the operation three times, once as normal, and twice with turb move enabled. We run the turb one twice as the first time it is run we need to cache the results, when the second one is called we are able to realize the time savings by getting the results from cache. the executable from the build folder to where ever you prefer and delete the git repository.
+To build the server, clone the main repository from GitHub and run the build command. Once the application is built, you can have a function that returns a promise and resolves it after a set amount of time. While its function is not practical, I feel it demonstrates the power of turb. Below we run the operation three times, once as normal, and twice with turb move enabled. We run the turb one twice as the first time it is run we need to cache the results, when the second one is called we are able to realize the time savings by getting the results from cache. the executable from the build folder to where ever you prefer and delete the git repository.
 
 ```text
 git clone https://github.com/lakefox/turb.git
+cd turb
 npm run build
 ```
 
